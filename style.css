@@ -1,0 +1,22 @@
+:root {
+  --peach-fuzz: #ffeeee;
+  --bubblegum: #ffd0d0;
+  --strawberry-milk: #ffbaba;
+  --kittycat-toebeans: #ff9191;
+  --watermelon: #ff6969;
+
+  --main-bg-color: var(--strawberry-milk);
+  --main-text-color: var(--watermelon);
+}
+
+html,
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-size: 16pt;
+  margin: 2rem;
+}
+
+pre {
+  font-family: "Iosevka Term", monospace;
+}
